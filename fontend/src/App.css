@@ -1,0 +1,90 @@
+ion-icon{
+    font-size: 24px;
+    
+}
+ion-icon:hover{
+    color: #0a68ff; 
+}
+h1{
+    margin: 0px;
+    color: rgb(39, 39, 42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    word-break: break-word;
+    white-space: break-spaces;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+h6{
+    margin: 0px;
+    color: rgb(36, 36, 36);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.button{
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    line-height: 150%;
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+.button:hover{
+    background-color: #e5e5e5;
+}
+
+.button:active{
+    background-color: #cbcbcc;
+}
+
+
+.button.active{
+    color: rgb(10, 104, 255);
+    background-color: white;
+    border: 1px solid #0a68ff;
+}
+.button.active:hover{
+    background-color: #e1edff;
+}
+
+.button.active:active{
+    background-color:#c4dbff;
+}
+
+.bgroud{
+   background: linear-gradient(136deg, rgb(240, 248, 255) -1%, rgb(219, 238, 255) 85%)!important;
+}
+
+.active.linkto{
+    border-right: 3px solid rgb(10, 104, 255);
+    background-color: #e0ecff;
+}
+
+.p-table{
+    height: calc(100vh - 64px);
+}
+
+.addImage{
+    background-image: url(./resource/addImage.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.hiddenScroll::-webkit-scrollbar {
+    display: none;
+}

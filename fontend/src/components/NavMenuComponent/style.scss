@@ -1,0 +1,12 @@
+.navMenu{
+    height: calc(100vh);
+    overflow: scroll;
+    -ms-overflow-style: none; /* cho Internet Explorer, Edge */
+    scrollbar-width: none; /* cho Firefox */
+    overflow-y: scroll; 
+}
+
+
+.navMenu::-webkit-scrollbar {
+    display: none; /* cho Chrome, Safari, and Opera */
+  }

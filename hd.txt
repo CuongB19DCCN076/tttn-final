@@ -1,0 +1,8 @@
+frontend:
+- npm install
+- npm start
+backend: chạy trên visual studio
+
+tk test:
+ - admin: admin@gmail.com + admin
+ - user: nvc3@gmail.com + 123456
